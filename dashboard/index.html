@@ -3,10 +3,56 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Marshall Dashboard (Scaffold)</title>
+  <title>Marshall Dashboard (Beta)</title>
+  <style>
+    body { font-family: sans-serif; background: #f9f9fb; padding: 2em; }
+    .section { background: #fff; padding: 1em; margin: 0.7em 0; border-radius: 8px; border: 1px solid #dde; }
+    h1, h2 { color: #28496a; }
+    ul { margin-top: 0; }
+  </style>
 </head>
 <body>
-  <h1>Marshall Dashboard</h1>
-  <p>This is a placeholder. Journal summary and live status updates will go here.</p>
+  <h1>Marshall Dashboard 🦉</h1>
+  <div class="section">
+    <h2>Major Activities & Experiments</h2>
+    <ul>
+      <li>Defined identity: Set Marshall’s foundational persona, purpose, epistemic stance, and rules in IDENTITY.md and SOUL.md</li>
+      <li>Emoji identity set: 🦉 added to IDENTITY.md per user feedback</li>
+      <li>Telegram bot tested: Diagnosed config+API key, verified cron/reminder scheduling</li>
+      <li>CRON jobs: Tested scheduled pins and inspirational theme messages</li>
+      <li>Discussed: Marshall’s philosophy on self-improvement, journaling, and proactive error surfacing</li>
+    </ul>
+  </div>
+  <div class="section">
+    <h2>Insights & Learnings</h2>
+    <ul>
+      <li>Direct, visible status updates create tight feedback loops</li>
+      <li>Daily journaling flagged as critical for self-improvement & provenance</li>
+      <li>Mentor: Log actions + thinking, not just outcomes (shapes future dashboard)</li>
+    </ul>
+  </div>
+  <div class="section">
+    <h2>Unresolved / Open Questions</h2>
+    <ul>
+      <li>Brave API key for web search not set up yet</li>
+      <li>Next steps for dashboard mobile view (format/formatting TBD)</li>
+      <li>How detailed should journal entries be? (Will iterate on feedback)</li>
+    </ul>
+  </div>
+  <div class="section">
+    <h2>Failures or Issues</h2>
+    <ul>
+      <li>Cron job time zones: Initial scheduling failed (now fixed)</li>
+      <li>Web search: Missing API key config, needs standardization</li>
+    </ul>
+  </div>
+  <div class="section">
+    <h2>Dashboard/Daily Summary</h2>
+    <ul>
+      <li>Identity, bot, and cron setup done</li>
+      <li>Daily log and learning captured: memory/2026-02-15.md</li>
+    </ul>
+  </div>
+  <footer style="margin-top:2em;margin-bottom:0.5em;color:#889;">Marshall / Daily Dashboard Beta — 2026-02-15</footer>
 </body>
 </html>
